@@ -6,7 +6,7 @@
 ### 数据结构篇
 - [01 数组、栈和队列](https://github.com/Noa-p/algorithms-learning/blob/main/basic-1.md)
 - [02 链表](https://github.com/Noa-p/algorithms-learning/blob/main/basic-2.md)
-- 03 树
+- [03 树](https://github.com/Noa-p/algorithms-learning/blob/main/basic-3.md)
 - 04 哈希表
 - 05 图
 - 06 Trie
