@@ -51,8 +51,10 @@ JavaScript的标准库对象Array中已经包含一些栈操作比如pop/push
 - 查看队首 `O(1)`
 - 判断队列是否为空 `O(1)`
 - 返回队列长度 `O(1)`
-- 判断是否为空栈 `O(1)`d
 - 判断是否为空栈 `O(1)`
+- 判断是否为空栈 `O(1)`
+
+JavaScript的标准库对象Array中已经包含一些队列操作比如unshift/shift
 
 ### 相关题目
 [队列相关题目](https://github.com/Noa-p/algorithms-learning/labels/%E9%98%9F%E5%88%97)
@@ -60,5 +62,3 @@ JavaScript的标准库对象Array中已经包含一些栈操作比如pop/push
 ## 相关专题
 ### 单调栈
 ### 栈匹配
-
-JavaScript的标准库对象Array中已经包含一些队列操作比如unshift/shift
