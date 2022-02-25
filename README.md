@@ -4,7 +4,7 @@
 ## 目录
 ### [数据结构与算法概述](https://github.com/Noa-p/algorithms-learning/blob/main/00.md)
 ### 数据结构篇
-- 01 数组、栈和队列
+- [01 数组、栈和队列](https://github.com/Noa-p/algorithms-learning/blob/main/basic-1.md)
 - 02 链表
 - 03 树
 - 04 哈希表
