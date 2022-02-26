@@ -105,6 +105,6 @@ var reverseList = function(head) {
 
 ### 相关题目
 - 快速排序
-- 二分专题
+- [二分专题](https://github.com/Noa-p/algorithms-learning/blob/main/subject-1.md)
 
 
