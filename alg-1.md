@@ -47,9 +47,12 @@ var myPow = function(x, n) {
 
 思路：
 - 可以用递归也可以用迭代实现
-- 从左到右（从上到下）处理结点，返回最后一个结点即反转链表的表头。
+- 写法一从左到右（从上到下）处理结点，返回最后一个结点即反转链表的表头。
+- 写法二从右到左（从下到上）处理结点，返回最后一个结点即反转链表的表头。
+
 代码：
 ```javascript
+写法一：
 /**
  * @param {ListNode} head
  * @return {ListNode}
@@ -63,6 +66,20 @@ var reverseList = function(head) {
         return dfs(cur, temp)
     }
     return dfs(null, head)
+};
+写法二：推荐
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var reverseList = function(head) {
+    if (head == null || head.next == null) {
+        return head;
+    }
+    const newHead = reverseList(head.next);
+    head.next.next = head;
+    head.next = null;
+    return newHead;
 };
 ```
 时间复杂度：O(n)
