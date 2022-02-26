@@ -52,7 +52,7 @@ var myPow = function(x, n) {
 
 代码：
 ```javascript
-写法一：
+// 写法一：
 /**
  * @param {ListNode} head
  * @return {ListNode}
@@ -67,7 +67,7 @@ var reverseList = function(head) {
     }
     return dfs(null, head)
 };
-写法二：推荐
+// 写法二：推荐
 /**
  * @param {ListNode} head
  * @return {ListNode}
