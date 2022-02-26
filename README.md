@@ -14,7 +14,7 @@
 - 08 堆
 ### 算法篇
 - [01 递归、迭代和分治](https://github.com/Noa-p/algorithms-learning/blob/main/alg-1.md)
-- 02 排序
+- [02 排序](https://github.com/Noa-p/algorithms-learning/blob/main/alg-2.md)
 - 03 动态规划
 - 04 贪心
 - 05 字符串
