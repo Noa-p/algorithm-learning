@@ -86,6 +86,7 @@ var reverseList = function(head) {
 空间复杂度：O(n)
 
 ### 相关题目
+- [面试题 08.06. 汉诺塔问题](https://leetcode-cn.com/problems/hanota-lcci/)
 - 链表相关
     - [回文链表](https://leetcode-cn.com/problems/aMhZSa/)
 - 二叉树遍历
