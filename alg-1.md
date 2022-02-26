@@ -87,6 +87,7 @@ var reverseList = function(head) {
 
 ### 相关题目
 - 链表相关
+    - [回文链表](https://leetcode-cn.com/problems/aMhZSa/)
 - 二叉树遍历
 
 ## 迭代
