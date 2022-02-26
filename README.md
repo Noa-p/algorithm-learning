@@ -7,7 +7,7 @@
 - [01 数组、栈和队列](https://github.com/Noa-p/algorithms-learning/blob/main/basic-1.md)
 - [02 链表](https://github.com/Noa-p/algorithms-learning/blob/main/basic-2.md)
 - [03 树](https://github.com/Noa-p/algorithms-learning/blob/main/basic-3.md)
-- 04 哈希表
+- [04 哈希表](https://github.com/Noa-p/algorithms-learning/blob/main/basic-4.md)
 - 05 图
 - 06 Trie
 - 07 并查集
