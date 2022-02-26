@@ -19,7 +19,7 @@
 - 04 贪心
 - 05 字符串
 ### 专题篇
-- 二分查找
+- [二分查找](https://github.com/Noa-p/algorithms-learning/blob/main/subject-1.md)
 - 双指针
 - 滑动窗口
 - 前缀和
