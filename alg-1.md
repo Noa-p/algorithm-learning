@@ -17,7 +17,10 @@
 
 思路一：每次递归将结果乘上x，递归n次，得到结果。但这样时间复杂度为O(n)，当n很大时会超时
 
-思路二：可以发现x^n = x^(n/2) * x^(n/2)，这样只需要计算一半的值，就可以重复使用构造结果。时间复杂度为O(lgn)
+思路二：
+
+- 可以发现x^n = x^(n/2) * x^(n/2)，这样只需要计算一半的值，就可以重复使用构造结果。时间复杂度为O(lgn)
+- 该题属于自下而上返回结果的类型。因为我们需要得到最小问题的解才能构造整体的解
 
 代码：
 ```javascript
@@ -37,11 +40,37 @@ var myPow = function(x, n) {
     return n >= 0 ? pow(n) : 1 / pow(-n) //注意n可能为负数
 };
 ```
-总结：该题属于自下而上返回结果的类型。因为我们需要得到最小问题的解才能构造整体的解。
 类似题目：
 - [面试题 08.05. 递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/)
 
-### 其他相关题目
+[02 206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+
+思路：
+- 可以用递归也可以用迭代实现
+- 从左到右（从上到下）处理结点，返回最后一个结点即反转链表的表头。
+代码：
+```javascript
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var reverseList = function(head) {
+    //递归
+    function dfs(pre, cur) {
+        if (cur == null) return pre
+        const temp = cur.next
+        cur.next = pre
+        return dfs(cur, temp)
+    }
+    return dfs(null, head)
+};
+```
+时间复杂度：O(n)
+空间复杂度：O(n)
+
+### 相关题目
+- 链表相关
+- 二叉树遍历
 
 ## 迭代
 迭代也是一种编程方法。
