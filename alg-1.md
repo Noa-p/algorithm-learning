@@ -87,6 +87,7 @@ var reverseList = function(head) {
 
 ### 相关题目
 - [面试题 08.06. 汉诺塔问题](https://leetcode-cn.com/problems/hanota-lcci/)
+- [剑指 Offer 62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) `数学`
 - 链表相关
     - [回文链表](https://leetcode-cn.com/problems/aMhZSa/)
 - 二叉树遍历
