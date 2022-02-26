@@ -13,7 +13,7 @@
 - 07 并查集
 - 08 堆
 ### 算法篇
-- 01 递归、迭代和分治
+- [01 递归、迭代和分治](https://github.com/Noa-p/algorithms-learning/blob/main/alg-1.md)
 - 02 排序
 - 03 动态规划
 - 04 贪心
