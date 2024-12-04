@@ -4,22 +4,22 @@
 ## 目录
 ### [数据结构与算法概述](https://github.com/Noa-p/algorithms-learning/blob/main/00.md)
 ### 数据结构篇
-- [01 数组、栈和队列](https://github.com/Noa-p/algorithms-learning/blob/main/basic-1.md)
-- [02 链表](https://github.com/Noa-p/algorithms-learning/blob/main/basic-2.md)
-- [03 树](https://github.com/Noa-p/algorithms-learning/blob/main/basic-3.md)
-- [04 哈希表](https://github.com/Noa-p/algorithms-learning/blob/main/basic-4.md)
+- [01 数组、栈和队列](https://github.com/Noa-p/algorithms-learning/blob/main/Basic/basic-1.md)
+- [02 链表](https://github.com/Noa-p/algorithms-learning/blob/main/Basic/basic-2.md)
+- [03 树](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/basic-3.md)
+- [04 哈希表](https://github.com/Noa-p/algorithms-learning/blob/main/Basic/basic-4.md)
 - 05 图
 - 06 Trie
 - 07 并查集
 - 08 堆
 ### 算法篇
-- [01 递归、迭代和分治](https://github.com/Noa-p/algorithms-learning/blob/main/alg-1.md)
-- [02 排序](https://github.com/Noa-p/algorithms-learning/blob/main/alg-2.md)
+- [01 递归、迭代和分治](https://github.com/Noa-p/algorithm-learning/blob/main/Algorithm/alg-1.md)
+- [02 排序](https://github.com/Noa-p/algorithms-learning/blob/main/Algorithm/alg-2.md)
 - 03 动态规划
 - 04 贪心
 - 05 字符串
 ### 专题篇
-- [二分查找](https://github.com/Noa-p/algorithms-learning/blob/main/subject-1.md)
+- [二分查找](https://github.com/Noa-p/algorithms-learning/blob/main/Subject/subject-1.md)
 - 双指针
 - 滑动窗口
 - 前缀和
