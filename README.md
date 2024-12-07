@@ -20,9 +20,9 @@
 - 05 字符串
 ### 专题篇
 - [二分查找](https://github.com/Noa-p/algorithms-learning/blob/main/Subject/subject-1.md)
-- 双指针
-- 滑动窗口
-- 前缀和
+- [双指针](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/subject-2.md)
+- [滑动窗口](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/subject-3.md)
+- [前缀和](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/subject-4.md)
 - 单调栈
 - 位运算
 - 搜索（BFS、DFS、回溯）
