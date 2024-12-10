@@ -6,6 +6,10 @@
 
 ## [209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 以该题为例，来看看这类题目的解法。
+
+Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a 
+subarray whose sum is greater than or equal to `target`. If there is no such subarray, return `0` instead.
+ 
 ```javascript
 /**
  * @param {number} target
@@ -19,8 +23,8 @@ var minSubArrayLen = function(target, nums) {
     let p1 = 0, p2 = 0;
     while (p2 < nums.length) {
         sum += nums[p2];                      // update window info
-        while (sum >= target) {               // If window is not valid
-            if (p2 - p1 + 1 < minLen) {       // Expand or shrink window
+        while (sum >= target) {               // If window is valid
+            if (p2 - p1 + 1 < minLen) {       // Try to shrink window to find the shorter subarray
                 minLen = p2 - p1 + 1;
             }
             sum -= nums[p1];
@@ -37,3 +41,4 @@ var minSubArrayLen = function(target, nums) {
 空间复杂度：O(1)
 
 ## 其他相关题目
+[滑动窗口系列题目](https://github.com/Noa-p/algorithm-learning/issues/72)
