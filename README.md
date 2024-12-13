@@ -19,10 +19,10 @@
 - 04 贪心
 - 05 字符串
 ### 专题篇
-- [二分查找](https://github.com/Noa-p/algorithms-learning/blob/main/Subject/subject-1-binary-search.md)
-- [双指针](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/subject-2-prefix-sum.md)
-- [滑动窗口](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/subject-3-sliding-window.md)
-- [前缀和](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/subject-4-two-pointers.md)
+- [二分查找](https://github.com/Noa-p/algorithms-learning/blob/main/Subject/binary-search.md)
+- [双指针](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/prefix-sum.md)
+- [滑动窗口](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/sliding-window.md)
+- [前缀和](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/two-pointers.md)
 - 单调栈
 - 位运算
 - 搜索（BFS、DFS、回溯）
