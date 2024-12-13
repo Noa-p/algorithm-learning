@@ -15,7 +15,7 @@
 ### 算法篇
 - [01 递归、迭代和分治](https://github.com/Noa-p/algorithm-learning/blob/main/Algorithm/alg-1-recursion.md)
 - [02 排序](https://github.com/Noa-p/algorithms-learning/blob/main/Algorithm/alg-2-sort.md)
-- 03 动态规划
+- [03 动态规划](https://github.com/Noa-p/algorithm-learning/blob/main/Algorithm/alg-3-dp.md)
 - 04 贪心
 - 05 字符串
 ### 专题篇
