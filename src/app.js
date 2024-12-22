@@ -35,7 +35,7 @@ function highlightBars(indices) {
 }
 
 /***************** One Round *****************/
-const worker = new Worker("worker.js");
+const worker = new Worker("src/worker.js");
 
 let interval = null, i = 0, steps = [];
 
