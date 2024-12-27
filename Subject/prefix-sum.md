@@ -109,7 +109,37 @@ Space complexity: O(1)
 ## 相关题目
 ### [467. Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/description/)
 #### Intuition
+- check duplication
 #### Code
-#### Complexity
+```javascript
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var findSubstringInWraproundString = function(s) {
+    s = '^' + s;
+    let ans = 0;
+    let pre = 1;
+    const lenMapper = new Map();
+    for (let i = 1; i<s.length; i++) {
+        if (s.charCodeAt(i) - s.charCodeAt(i-1) === 1 ||
+            s.charCodeAt(i) - s.charCodeAt(i-1) === -25
+        ) {
+            pre += 1;
+        } else {
+            pre = 1;
+        }
+        lenMapper.set(s[i], Math.max(lenMapper.get(s[i]) || 0, pre));
+    }
 
+    for (const v of lenMapper.values()) {
+        ans += v;
+    }
+    return ans;
+};
+```
+#### Complexity
+Time complexity: O(n)
+
+Space Complexity: O(1)
 
