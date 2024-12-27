@@ -99,3 +99,17 @@ Space complexity: O(1)
 #### Intuition
 - `betweenK(nums, k1, k2) = atMostK(nums, k1) - atMostK(nums, k2)`
 
+## 前缀和的使用场景
+- 差分
+- 前缀和与二分
+- 求区间内的1的个数
+- 区间值计数
+- 区间值计数扩展
+
+## 相关题目
+### [467. Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/description/)
+#### Intuition
+#### Code
+#### Complexity
+
+
