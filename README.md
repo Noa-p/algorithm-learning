@@ -25,7 +25,7 @@
 - [前缀和](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/prefix-sum.md)
 - 单调栈
 - 位运算
-- 搜索（BFS、DFS、回溯）
+- [搜索（BFS、DFS、回溯）](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/backtracking.md)
 - 数学
 ### JavaScript专题
 - JS处理操作总结
