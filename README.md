@@ -8,7 +8,7 @@
 - [02 链表](https://github.com/Noa-p/algorithms-learning/blob/main/Basic/basic-2-linked-list.md)
 - [03 树](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/basic-3-tree.md)
 - [04 哈希表](https://github.com/Noa-p/algorithms-learning/blob/main/Basic/basic-4-hash-table.md)
-- 05 图
+- [05 图](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/graph.md)
 - 06 Trie
 - 07 并查集
 - 08 堆
