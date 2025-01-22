@@ -19,6 +19,7 @@
 |x & ~(x - 1)|Extract the lowest set bit of x|
 |x >> 1|Divide x by 2|
 |x << 1|Multiply x by 2|
+|a ^ a = 0||
 
 ## Common bit manipulation problems
 - Checking Odd or Event
@@ -41,11 +42,37 @@ a = a ^ b;
 b = a ^ b;
 a = a ^ b;
 ```
+拓展：[137. Single Number II](https://leetcode.com/problems/single-number-ii/description/?envType=study-plan-v2&envId=top-interview-150)
 ### Finding the Single Odd Occurrence
+XOR cancels pairs, leaving the odd-occurrence element.
 ```javascript
-
+let res = 0;
+for (let num of nums) {
+  res ^= num;
+}
 ```
 ### Power of Two Checks
+```javascript
+function isPowerOfTwo(num) {
+  return (num & (num - 1)) === 0 && num > 0;
+}
+```
 ### Count Total Bits Set
+```javascript
+function countSetBits(num) {
+  let count = 0;
+  while (num) {
+    count += num & 1;
+    num >>= 1;
+  }
+  return count;
+}
+```
 
+## Reference
+[1] [Bit manipulation in JavaScript](https://www.geeksforgeeks.org/bit-manipulation-in-javascript/?ref=header_outind)
+
+[2] [Bit Tricks for Competitive Programming](https://www.geeksforgeeks.org/bit-tricks-competitive-programming/)
+
+[3] [Bitwise AND (&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND)
 
