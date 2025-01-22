@@ -19,7 +19,13 @@
 |x & ~(x - 1)|Extract the lowest set bit of x|
 |x >> 1|Divide x by 2|
 |x << 1|Multiply x by 2|
-|a ^ a = 0||
+
+## Bitwise Formulae
+|Bit Operator|Formula|
+|----|----|
+|&|a & 1 = a <br /> a & 0 = 0 <br /> a & a = a <br /> a & (~a) = 0 |
+|\||a \| 1 = 1 <br /> a \| 0 = a <br /> a \| a = a <br /> a \| (~a) = 1|
+|^|a ^ 1 = ~a <br /> a ^ 0 = a <br /> a ^ a = 0 <br /> a ^ (~a) = 1|
 
 ## Common bit manipulation problems
 - Checking Odd or Event
