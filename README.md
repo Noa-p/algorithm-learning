@@ -11,7 +11,7 @@
 - [05 图](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/graph.md)
 - 06 Trie
 - 07 并查集
-- 08 堆
+- [08 堆](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/heap.md)
 ### 算法篇
 - [01 递归、迭代和分治](https://github.com/Noa-p/algorithm-learning/blob/main/Algorithm/alg-1-recursion.md)
 - [02 排序](https://github.com/Noa-p/algorithms-learning/blob/main/Algorithm/alg-2-sort.md)
@@ -24,7 +24,7 @@
 - [滑动窗口](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/sliding-window.md)
 - [前缀和](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/prefix-sum.md)
 - 单调栈
-- 位运算
+- [位运算](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/bit-manipulation.md)
 - [搜索（BFS、DFS、回溯）](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/backtracking.md)
 - [数学](https://github.com/Noa-p/algorithm-learning/blob/main/Subject/math.md)
 ### JavaScript专题
