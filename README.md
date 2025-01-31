@@ -9,14 +9,14 @@
 - [03 树](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/basic-3-tree.md)
 - [04 哈希表](https://github.com/Noa-p/algorithms-learning/blob/main/Basic/basic-4-hash-table.md)
 - [05 图](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/graph.md)
-- 06 Trie
-- 07 并查集
+- [06 Trie](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/trie.md)
+- [07 并查集](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/disjoint-set.md)
 - [08 堆](https://github.com/Noa-p/algorithm-learning/blob/main/Basic/heap.md)
 ### 算法篇
 - [01 递归、迭代和分治](https://github.com/Noa-p/algorithm-learning/blob/main/Algorithm/alg-1-recursion.md)
 - [02 排序](https://github.com/Noa-p/algorithms-learning/blob/main/Algorithm/alg-2-sort.md)
 - [03 动态规划](https://github.com/Noa-p/algorithm-learning/blob/main/Algorithm/alg-3-dp.md)
-- 04 贪心
+- [04 贪心](https://github.com/Noa-p/algorithm-learning/blob/main/Algorithm/alg-4-greedy.md)
 - 05 字符串
 ### 专题篇
 - [二分查找](https://github.com/Noa-p/algorithms-learning/blob/main/Subject/binary-search.md)
