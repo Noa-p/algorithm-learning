@@ -46,6 +46,7 @@ var combine = function(n, k) {
 }
 ```
 - [77. Combinations](https://leetcode.com/problems/combinations/)
-- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 选项可重复
+- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  去重
 - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
