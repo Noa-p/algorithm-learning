@@ -18,6 +18,9 @@
 
 ### 相关题目
 #### 组合问题
+> 叶子结点是解；
+
+
 以Leetcode 77为例
 ```javascript
 /**
@@ -46,7 +49,30 @@ var combine = function(n, k) {
 }
 ```
 - [77. Combinations](https://leetcode.com/problems/combinations/)
-- [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 选项可重复
-- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  去重
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/) `选项可重复`
+- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  `去重`
 - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
+#### 分割问题
+> 叶子结点是解；path记录的相当于是分割的位置；
+- [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+- [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
+
+#### 子集问题
+> 所有树结点都是解；
+- [78. Subsets](https://leetcode.com/problems/subsets/)
+- [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+- [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
+
+#### 排列问题
+> 叶子结点是解；剩余元素均可继续选择；
+- [46. Permutations](https://leetcode.com/problems/permutations/)
+- [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+
+#### 棋盘问题
+- [51. N-Queens](https://leetcode.com/problems/n-queens/)
+- [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+
+#### 其他
+- [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
