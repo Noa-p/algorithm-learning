@@ -74,5 +74,64 @@ var combine = function(n, k) {
 - [51. N-Queens](https://leetcode.com/problems/n-queens/)
 - [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 
+#### [51. N-Queens](https://leetcode.com/problems/n-queens/)
+##### Intuition
+- 遍历棋盘判断当前格子是否可以放置皇后，穷举所有可能，记录满足条件的解
+- 将递归树的宽度看作棋盘宽度cols，深度看作棋盘高度rows
+- 皇后放置规则：两个皇后不能并排、不能并列、且不能在同一斜对角线上
+```javascript
+/**
+ * @param {number} n
+ * @return {string[][]}
+ */
+var solveNQueens = function(n) {
+    const res = [];
+    const ans = Array.from({length: n}, () => new Array(n).fill("."));
+
+    function isValid(puzzle, row, col) {
+        for (let i=0; i<row; i++) {
+            if (puzzle[i][col] == 'Q') {
+                return false;
+            }
+        }
+        for (let i=row-1, j=col-1; i>=0 && j>=0; i--, j--) {
+            if (puzzle[i][j] == 'Q') {
+                return false;
+            }
+        }
+        for (let i=row-1, j=col+1; i>=0 && j<n; i--, j++) {
+            if (puzzle[i][j] == 'Q') {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function solve (q) {
+        if (q === 0) {
+            res.push([...ans].map(row => row.join("")));
+            return;
+        }
+        const r = n - q;
+        for (let i=0; i<n; i++) {
+            const valid = isValid(ans, r, i);
+            if (!valid) {
+                continue;
+            }
+            ans[r][i] = 'Q';
+            solve(q-1);
+            ans[r][i] = '.';
+        }
+        return;
+    }
+
+    solve(n);
+    return res;
+};
+```
+##### Complexity
+- Time Complexity: O(n!)
+- Space Complexity: O(n)
+
 #### 其他
 - [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
