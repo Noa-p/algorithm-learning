@@ -10,3 +10,4 @@
 ## 相关题目
 - [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/) `策略：最大饼干满足最大胃口的孩子`
 - [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) `策略：删除单调坡度上的元素`
+- [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) `策略：当前区间不与前一个区间重合时计数+1。如果前两个区间重合，比较的区间应该是这两个区间重叠的部分`
