@@ -42,3 +42,9 @@ var numTrees = function(n) {
 - Space Complexity: `O(n)`
 
 ## 背包问题
+### 01背包
+> 纯粹01背包问题：有n个物品，每个物品有其重量和价值，给定固定称重大小的背包，问怎么装使得背包的价值最大
+- [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) `分割数组`
+- [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) `分割数组`
+- [494. Target Sum](https://leetcode.com/problems/target-sum/) `分割数组`
+- [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) `两个维度m, n`
