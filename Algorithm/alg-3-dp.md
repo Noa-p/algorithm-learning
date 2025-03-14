@@ -43,8 +43,26 @@ var numTrees = function(n) {
 
 ## 背包问题
 ### 01背包
-> 纯粹01背包问题：有n个物品，每个物品有其重量和价值，给定固定称重大小的背包，问怎么装使得背包的价值最大
+> 纯粹01背包问题：有n个物品，每个物品有其重量和价值，每个物品只能取一次，给定固定称重大小的背包，问怎么装使得背包的价值最大
+> 
+> 代码特点：
+> 1. 二维dp数组中，无所谓遍历顺序
+> 2. 一维dp数组中，只能先遍历物品，再遍历背包，且遍历背包时应该倒叙
+
+
 - [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) `分割数组`
 - [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) `分割数组`
 - [494. Target Sum](https://leetcode.com/problems/target-sum/) `分割数组`
 - [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) `两个维度m, n`
+
+### 完全背包
+> 纯粹完全背包问题：有n个物品，每个物品有其重量和价值，每个物品可以取无限次，给定固定称重大小的背包，问怎么装使得背包的价值最大
+> 
+> 代码特点：
+> 1. 无所谓遍历顺序，且遍历背包时应该正序
+> 2. 但如果题目问装满背包有多少种方法，应该考虑求组合还是排列。如果求组合，应该先遍历物品，再遍历背包；如果求排列，则先遍历背包，再遍历物品
+
+- [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/)
+- [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+- [322. Coin Change](https://leetcode.com/problems/coin-change/)
+- [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
