@@ -66,3 +66,15 @@ var numTrees = function(n) {
 - [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 - [322. Coin Change](https://leetcode.com/problems/coin-change/)
 - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+- [139. Word Break](https://leetcode.com/problems/word-break/) `🌟`
+
+## 打家劫舍
+- [198. House Robber](https://leetcode.com/problems/house-robber/)
+- [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) `环形`
+- [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) `树形DP`
+
+## 买卖股票
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+- [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
