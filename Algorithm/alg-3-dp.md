@@ -104,3 +104,9 @@ var numTrees = function(n) {
 ## Matrix
 - [120. Triangle](https://leetcode.com/problems/triangle/)
 - [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
+
+## 状态压缩
+> 有的DP数组可以压缩以减少空间复杂度
+#### [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+压缩方法：
+
