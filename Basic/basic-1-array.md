@@ -21,7 +21,12 @@
 - 插入/删除：push/pop, unshift/shift `O(1)`
 
 ### 相关题目
-[数组相关题目](https://github.com/Noa-p/algorithms-learning/labels/%E6%95%B0%E7%BB%84)
+- [数组相关题目](https://github.com/Noa-p/algorithms-learning/labels/%E6%95%B0%E7%BB%84)
+
+#### Matrix
+- [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+- [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
 ## 栈
 栈是受限的线性表。
