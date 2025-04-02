@@ -20,5 +20,5 @@
 - [反转链表](https://github.com/Noa-p/algorithms-learning/issues/47)
 - [合并链表](https://github.com/Noa-p/algorithms-learning/issues/48)
 - [相交/环形链表](https://github.com/Noa-p/algorithms-learning/issues/49)
-- 设计题
 - [更多](https://github.com/Noa-p/algorithms-learning/issues/50)
+- 设计题：[707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
