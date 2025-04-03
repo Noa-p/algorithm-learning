@@ -15,3 +15,8 @@
 - 遍历判断匹配，当遇到不匹配的字符时，回到模式串最长相等前后缀的位置，继续匹配
 
 ### 算法实现
+```javascipt
+```
+
+### 相关题目
+- [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
