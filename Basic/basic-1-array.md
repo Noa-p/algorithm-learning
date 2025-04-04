@@ -43,7 +43,11 @@
 JavaScript的标准库对象Array中已经包含一些栈操作比如pop/push
 
 ### 相关题目
-[栈相关题目](https://github.com/Noa-p/algorithms-learning/labels/%E6%A0%88)
+- [栈相关题目](https://github.com/Noa-p/algorithms-learning/labels/%E6%A0%88)
+- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+- [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) `Reverse Polish Notation` `二叉树后序遍历`
+- [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
 ## 队列
 队列也是受限的线性表。
