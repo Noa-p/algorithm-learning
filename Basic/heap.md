@@ -63,6 +63,7 @@ class MinHeap {
 ## 堆相关问题
 - Heap Sort
 - [K'th Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
+- [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) `小顶堆`
 
 ## Reference
 - [1] [Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
