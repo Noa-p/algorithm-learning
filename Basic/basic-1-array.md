@@ -47,7 +47,6 @@ JavaScript的标准库对象Array中已经包含一些栈操作比如pop/push
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
 - [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) `Reverse Polish Notation` `二叉树后序遍历`
-- [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
 ## 队列
 队列也是受限的线性表。
@@ -63,11 +62,13 @@ JavaScript的标准库对象Array中已经包含一些栈操作比如pop/push
 - 判断是否为空栈 `O(1)`
 - 判断是否为空栈 `O(1)`
 
-JavaScript的标准库对象Array中已经包含一些队列操作比如unshift/shift
+JavaScript的标准库对象Array可以说是一个双向队列，两边都支持进出操作
 
 ### 相关题目
-[队列相关题目](https://github.com/Noa-p/algorithms-learning/labels/%E9%98%9F%E5%88%97)
+- [队列相关题目](https://github.com/Noa-p/algorithms-learning/labels/%E9%98%9F%E5%88%97)
+- [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) `单调队列`
 
 ## 相关专题
 ### 单调栈
 ### 栈匹配
+### 优先级队列
