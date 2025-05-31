@@ -75,6 +75,44 @@ function countSetBits(num) {
 }
 ```
 
+## Other problems
+### [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+#### Intuitive
+Use bit manipulation to mimic the process of division.
+1. Divide a by 2^i, i = 31-0, if the current quotient >= divisor, which means the current 2^i could be added into the result quotient.
+2. Substract divisor * 2^i from a, and move to smaller bits(i--) to check smaller quotients.
+#### Code
+```typescript
+function divide(dividend: number, divisor: number): number {
+    const INT_MAX = Math.pow(2, 31) - 1;
+    const INT_MIN = - Math.pow(2, 31);
+    const isNegative: boolean = (dividend < 0) !== (divisor < 0);
+
+    if (dividend === INT_MIN && divisor === -1) return INT_MAX;
+    if (dividend === INT_MIN && divisor === 1) return INT_MIN;
+
+    let a: number = Math.abs(dividend);
+    let b: number = Math.abs(divisor);
+    let quotient: number = 0;
+
+    let i: number = 31;
+    while (a >= b) {
+        if (i < 0) break;
+        if ((a >>> i) >= b) {
+            quotient += 1 << i;
+            a -= b << i;
+        }
+        i--;
+    }
+
+    return isNegative ? -quotient : quotient;
+};
+```
+#### Complexity
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
+
 ## Reference
 [1] [Bit manipulation in JavaScript](https://www.geeksforgeeks.org/bit-manipulation-in-javascript/?ref=header_outind)
 
