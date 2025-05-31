@@ -100,6 +100,7 @@ var numTrees = function(n) {
 - [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) `🌟`
+- [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) `连续``求长度`
 
 ## Matrix
 - [120. Triangle](https://leetcode.com/problems/triangle/)
