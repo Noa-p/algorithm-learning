@@ -50,7 +50,7 @@ a = a ^ b;
 ```
 拓展：[137. Single Number II](https://leetcode.com/problems/single-number-ii/description/?envType=study-plan-v2&envId=top-interview-150)
 ### Finding the Single Odd Occurrence
-XOR cancels pairs, leaving the odd-occurrence element.
+XOR cancels pairs(`a ^ a = 0`), leaving the odd-occurrence element.
 ```javascript
 let res = 0;
 for (let num of nums) {
@@ -58,6 +58,19 @@ for (let num of nums) {
 }
 ```
 ### Power of Two Checks
+If a number is a power of 2, its binary representation has exactly one 1, like:
+```javascript
+1 -> 0001
+2 -> 0010
+4 -> 0100
+8 -> 1000
+```
+Subsrtacting 1 flips all the bits after that 1:
+```javascript
+8 -> 1000
+7 -> 0111
+8 & 7 -> 0000
+```
 ```javascript
 function isPowerOfTwo(num) {
   return (num & (num - 1)) === 0 && num > 0;
